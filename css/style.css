@@ -39,7 +39,9 @@ header {
 
 .col-100,
 .col-30,
-.col-70 {
+.col-70,
+.col-15,
+.col-40 {
   width: 100%;
   min-height: 350px;
 }
@@ -50,6 +52,14 @@ header {
 
 .col-30 {
   width: 30%;
+}
+
+.col-15 {
+  width: 15%;
+}
+
+.col-40 {
+  width: 40%;
 }
 
 .col-20,
@@ -90,12 +100,28 @@ header {
   background-color: #1E90FF;
 }
 
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-aquamarin {
+  background-color: aquamarine;
+}
+
 .bg-pink {
   background-color: pink;
 }
 
+.bg-dark-pink {
+  background-color: #F08180;
+}
+
 .bg-lg-gray {
   background-color: #D3D3D3;
+}
+
+.bg-marin {
+  background-color: #20B3AA;
 }
 
 .py-20 {
@@ -103,10 +129,14 @@ header {
 }
 
 .border-dotted {
-  border: 1px black;
+  border: 2px;
   border-style: dotted;
 }
 
 .border-radius {
   border-radius: 5px;
+}
+
+.col-15.border-dotted {
+  border: 2px white dotted;
 }
