@@ -9,6 +9,8 @@ header {
   background-color: lightblue;
 }
 
+
+
 .container {
   max-width: 1200px;
   display: flex;
@@ -19,6 +21,13 @@ header {
   max-width: 900px;
   display: flex;
   margin: 0 auto;
+}
+
+.container-short {
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  height: 80px;
 }
 
 .container-square {
@@ -35,6 +44,10 @@ header {
 
 .col-60 {
   width: 60%;
+}
+
+.col-100-foot {
+  width: 100%;
 }
 
 .col-100,
@@ -128,6 +141,10 @@ header {
   padding: 20px 0;
 }
 
+.center-items {
+  padding: 5px 5px;
+}
+
 .border-dotted {
   border: 2px;
   border-style: dotted;
@@ -139,4 +156,12 @@ header {
 
 .col-15.border-dotted {
   border: 2px white dotted;
+}
+
+.col-100-foot.bg-aquamarin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  text-transform: capitalize;
 }
