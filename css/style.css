@@ -7,7 +7,6 @@
 header {
   padding: 15px 15px;
   background-color: lightblue;
-  margin-bottom: 50px;
 }
 
 .container {
@@ -18,6 +17,13 @@ header {
 
 .container-sm {
   max-width: 900px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.container-square {
+  width: 1200px;
+  height: 1200px;
   display: flex;
   margin: 0 auto;
 }
@@ -60,6 +66,10 @@ header {
   padding: 5px;
 }
 
+.bg-green {
+  background-color: green;
+}
+
 .bg-goldenrod {
   background-color: goldenrod;
 }
@@ -84,11 +94,13 @@ header {
   background-color: pink;
 }
 
+.bg-lg-gray {
+  background-color: #D3D3D3;
+}
+
 .py-20 {
   padding: 20px 0;
 }
-
-
 
 .border-dotted {
   border: 1px black;
