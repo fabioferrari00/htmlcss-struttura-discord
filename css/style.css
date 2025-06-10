@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
+/* generals */
 header {
-  padding: 15px 15px;
+  padding: 10px 0;
   background-color: lightblue;
 }
 
-
-
+/* layout classes */
 .container {
   max-width: 1200px;
   display: flex;
@@ -19,7 +19,6 @@ header {
 
 .container-sm {
   max-width: 900px;
-  display: flex;
   margin: 0 auto;
 }
 
@@ -28,13 +27,6 @@ header {
   display: flex;
   margin: 0 auto;
   height: 80px;
-}
-
-.container-square {
-  width: 1200px;
-  height: 1200px;
-  display: flex;
-  margin: 0 auto;
 }
 
 .col-20 {
@@ -46,6 +38,10 @@ header {
   width: 60%;
 }
 
+.col-100 {
+  width: 100%;
+}
+
 .col-100-foot {
   width: 100%;
 }
@@ -55,7 +51,6 @@ header {
 .col-70,
 .col-15,
 .col-40 {
-  width: 100%;
   min-height: 350px;
 }
 
@@ -75,20 +70,20 @@ header {
   width: 40%;
 }
 
-.col-20,
-.col-60 {
-  height: 30px;
+
+.col-15.border-dotted {
+  border: 2px white dotted;
 }
 
-.col-20.bg-goldenrod {
-  padding: 5px;
+.col-100-foot.bg-aquamarin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  text-transform: capitalize;
 }
 
-.col-60.bg-goldenrod {
-  text-align: center;
-  padding: 5px;
-}
-
+/* utility classes */
 .bg-green {
   background-color: green;
 }
@@ -137,12 +132,24 @@ header {
   background-color: #20B3AA;
 }
 
+.my-50 {
+  margin: 50px auto;
+}
+
 .py-20 {
   padding: 20px 0;
 }
 
+.py-5 {
+  padding: 5px 0;
+}
+
 .center-items {
   padding: 5px 5px;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .border-dotted {
@@ -154,14 +161,15 @@ header {
   border-radius: 5px;
 }
 
-.col-15.border-dotted {
-  border: 2px white dotted;
+ul {
+  list-style: none;
 }
 
-.col-100-foot.bg-aquamarin {
+header ul {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 60px;
-  text-transform: capitalize;
+  justify-content: center;
+}
+
+header ul li {
+  margin: 0px 15px;
 }
